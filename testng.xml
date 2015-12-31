@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="InterFaceTest">
+	<test verbose="2" preserve-order="true" name="InterFaceTest">
+		<classes>
+			<class name="com.doTest.shopHomePage">
+				<methods>
+					<include name="shopHomePageTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
